@@ -26,19 +26,27 @@ function HeaderBenner() {
     }
   </div>
 }
-function Body() {
-  return <div>
-    <div className="w-full bg-white h-28">
-      <div>
-        <a href="/">
-          <svg className="-auto "></svg>
-        </a>
-      </div>
-
-      <div>  
+function Header() {
+  return <>
+    <div className="w-full h-28">
+      <div className="flex flex-row grow-0 pl-10 pr-10 bg-white align-middle">
+        <div className="flex-none basis-48 w-40">
+          <a href="/">
+            <img alt="logo" src="img/logo.png" />
+          </a>
+        </div>
+        <div className="basis-1/2 grow"></div>
+        <div className="flex-none basis-64 w-64 pt-10">
+          <div className="text-xs flex flex-row">
+            <a className="basis-5/12" href="/">자세히 알아보기</a>
+            <div className="basis-1/6"></div>
+            <a className="basis-5/12" href="/">대구 부동산 연구소</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+
+  </>
 }
 
 
@@ -48,7 +56,7 @@ function App() {
   return (
     <div>
       <HeaderBenner />
-      <Body />
+      <Header />
     </div>
   );
 }
