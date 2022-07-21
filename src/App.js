@@ -20,7 +20,6 @@ function App() {
     <div>
       <HeaderBenner />
       {navbar ? <Header/> : <HeaderFixed/>}
-      <Body />
       <Title />
       <Act />
     </div>

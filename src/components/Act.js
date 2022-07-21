@@ -11,7 +11,7 @@ function Act() {
             <div className="text-[40px] leading-[60px] font-semibold">매물광고</div>
             <div className="text-lg font-normal">소장이 하나하나 검토해서 신뢰성있는 매물 多<br></br> 인공지능 가격분석으로 합리적인 가격까지</div>
             <div className="pt-5">
-              <button type="button" className="px-3 py-3 w-32 h-auto border-2 rounded-3xl"onClick={() => {setAct1(true);}}>자세히보기➜</button>
+              <button className="px-3 py-3 w-32 h-auto border-2 rounded-3xl" onClick={() => {setAct1(true);}}>자세히보기➜</button>
             </div>
           </div>
         </a>
@@ -43,14 +43,14 @@ function Act() {
           </div>
         </a>
       </div>
-    {act1 && 
-    <div className="z-10">
-      <div className="w-screen h-screen bg-black/90 absolute"></div>
-      <div className="lg:px-52 w-auto lg:py-40 h-auto absolute bg-white">
-        <div>
+      {act1 &&
+      <div>
+        <div className='z-10 w-full h-full bg-black/90'>
+
         </div>
       </div>
-    </div>}
+        
+      }
     </>
   }
   export default Act;
