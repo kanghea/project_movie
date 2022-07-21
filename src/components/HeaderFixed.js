@@ -3,10 +3,10 @@ function HeaderFixed() {
     return <>
     {
       <div className="sticky top-0 w-full h-[75px] backdrop-blur-xl drop-shadow-lg antialiased box-border" id="main-header">
-        <div className="w-full h-full flex grow-0 bg-white/80 justify-between content-center items-center lg:px-52" id="main-header">
+        <div className="w-full h-full flex grow-0 bg-white/80 justify-between items-center lg:px-52" id="main-header">
           <div className="flex-none basis-48 w-auto h-full">
             <a href="/">
-              <img alt="logo" src="img/logo.png" />
+              <img alt="logo" src="img/logo.png" className='h-20 '/>
             </a>
           </div>
           <div className="flex-none basis-96 w-72">
