@@ -7,7 +7,7 @@ import Title from './components/Title';
 import Act from './components/Act';
 
 function App() {
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(true);
   const changeheight = () => {
     if(window.scrollY > 0){
       setNavbar(false);
@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <HeaderBenner />
-      {navbar ? <Header/> : <HeaderFixed/>}
+      {navbar ? <Header /> : <HeaderFixed />}
       <Title />
       <Act />
     </div>

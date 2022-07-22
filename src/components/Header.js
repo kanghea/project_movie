@@ -12,9 +12,9 @@ function Header() {
           </div>
           <div className="flex-none basis-96 w-72">
             <div className="text-xs flex flex-row">
-              <a className="basis-48 color-white bg-orange-400 text-white border-solid rounded-3xl h-10 align-middle text-center pt-2 hover:bg-orange-500 text-sm border-2 border-orange-300" href="/"><strong> 대.부.연 앱 다운하기 ➜</strong></a>
+              <div className="basis-48 color-white bg-orange-400 text-white border-solid rounded-3xl h-10 align-middle text-center pt-2 hover:bg-orange-500 text-sm border-2 border-orange-300" href="/"><strong> 대.부.연 앱 다운하기 ➜</strong></div>
               <div className="basis-4"></div>
-              <a className="basis-48 bg-white border-solid rounded-3xl h-10 align-middle text-center pt-2 hover:bg-slate-100 text-sm border-2 border-gray-300" href="/"><strong>대.부.연 웹사이트 ➜</strong></a>
+              <div className="basis-48 bg-white border-solid rounded-3xl h-10 align-middle text-center pt-2 items-center hover:bg-slate-100 text-sm border-2 border-gray-300" href="/"><strong>대.부.연 웹사이트 ➜</strong></div>
             </div> 
           </div>
         </div>
