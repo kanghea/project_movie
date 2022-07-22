@@ -6,6 +6,7 @@ import HeaderFixed from './components/HeaderFixed';
 import Title from './components/Title';
 import Act from './components/Act';
 
+
 function App() {
   const [navbar, setNavbar] = useState(true);
   const changeheight = () => {
