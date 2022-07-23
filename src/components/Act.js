@@ -5,7 +5,7 @@ function Act() {
     const [act2, setAct2] = useState(false);
     const [act3, setAct3] = useState(false);
     return <>
-      <div className="w-full h-auto flex flex-wrap mb-36 gap-10 mt-5 flex-col xl:px-52 absolute ">
+      <div className="w-full h-auto flex flex-wrap mb-36 gap-10 mt-5 xl:px-26 justify-center">
         <a className='w-[525px]'>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-blue-400 hover:mt-0 hover:mb-5 duration-100 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
             <div className="text-[40px] leading-[60px] font-semibold">매물등록</div>
@@ -47,13 +47,14 @@ function Act() {
       </div>
       {act1&&
         <div>
-          <div className='z-10 w-full h-full bg-black/70 fixed top-0 left-0 flex align-middle justify-center items-center'onClick={() => {setAct1(false);}}>
-            <div className='z-20 w-[720px] h-[600px] p-8 bg-white rounded-[40px]'onClick={()=> {setAct1(true);}}>
+          <div className='z-10 w-full h-full bg-black/70 fixed top-0 left-0' onClick={() => { setAct1(false); }}></div>
+          <div className='z-20 fixed w-full h-full justify-center items-center align-middle'>
+            <div className='flex fixed w-[720px] h-[600px] p-8 bg-white rounded-[40px]' onClick={() => { setAct1(true); }}>
               <div className='absolute w-[640px] border-b-gray-400'>
                 <div className='text-2xl mb-6 font-semibold'>매물등록</div>
                 <ul className='flex gap-12 text-xl text-gray-400 w-full border-b-2 border-black font-[550] pb-2'>
-                  <li className='hover:text-black hover:border-b-4'>간편한 매물 등록</li>
-                  <li className='hover:text-black hover:border-b-4'>철저한 매물 관리</li>
+                  <li className='hover:text-black hover:bg-gray-100 hover:rounded-3xl hover:w-auto hover:h-8'>간편한 매물 등록</li>
+                  <li className='hover:text-black'>철저한 매물 관리</li>
                 </ul>
               </div>
             </div>
