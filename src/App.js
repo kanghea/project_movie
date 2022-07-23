@@ -18,7 +18,7 @@ function App() {
   }
   window.addEventListener('scroll', changeheight)
   return (
-    <div>
+    <div className="transition-all duration-300">
       <HeaderBenner />
       {navbar ? <Header /> : <HeaderFixed />}
       <Title />
