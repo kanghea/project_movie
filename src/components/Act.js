@@ -16,8 +16,8 @@ function Act() {
             <img src='img/등록.png' className='h-[150px] mt-52 ml-72'  />
           </div>
         </a>
-        <a href="/" className='w-[525px] h-[432px]'>
-          <div className="mt-5 w-[525px] bg-gray-100 hover:bg-green-400 hover:mt-0 hover:mb-5 duration-100 h-[432px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400">
+        <a href="/" className='w-[525px] h-[532px]'>
+          <div className="mt-5 w-[525px] bg-gray-100 hover:bg-green-400 hover:mt-0 hover:mb-5 duration-100 h-[532px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400">
             <div className="text-[40px] leading-[60px] font-semibold">지도기반 매물 표시 </div>
             <div className="text-lg font-normal">신뢰성 높은 매물과 합리적인 가격과<br></br> 가독성 높은 지도 UI</div>
             <div className="pt-5">
