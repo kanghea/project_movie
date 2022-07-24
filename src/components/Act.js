@@ -1,4 +1,4 @@
-import React, {component, useState} from 'react';
+import React, {useState} from 'react';
 
 function Act() {
     const [act1,setAct1] = useState(false);

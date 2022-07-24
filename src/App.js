@@ -1,11 +1,9 @@
 import React, { useEffect, useState,Component } from "react";
 import HeaderBenner from './components/HeaderBenner';
-import Header from './components/Header';
-import Body from './components/Body';
-import HeaderFixed from './components/HeaderFixed';
 import Title from './components/Title';
 import Act from './components/Act';
-
+import Header from './components/Header';
+import HeaderFixed from './components/HeaderFixed';
 
 function App() {
   const [navbar, setNavbar] = useState(true);
@@ -16,10 +14,9 @@ function App() {
       setNavbar(true);
     }
   }
-  
   window.addEventListener('scroll', changeheight)
   return (
-    <div className="transition-all duration-300">
+    <div>
       <HeaderBenner />
       {navbar ? <Header /> : <HeaderFixed />}
       <Title />

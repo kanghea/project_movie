@@ -1,4 +1,4 @@
-import React, {component, useState} from 'react';
+import React, {useState} from 'react';
 function HeaderBenner() {
     const [show, setShow] = useState(true);
     return <div>
