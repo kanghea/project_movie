@@ -7,6 +7,7 @@ import HeaderFixed from './components/HeaderFixed';
 
 function App() {
   const [navbar, setNavbar] = useState(true);
+  const [all, setAll] = useState(true);
   const changeheight = () => {
     if(window.scrollY > 0){
       setNavbar(false);
@@ -16,13 +17,17 @@ function App() {
   }
   window.addEventListener('scroll', changeheight)
   return (
-    <div>
-      <HeaderBenner />
-      {navbar ? <Header /> : <HeaderFixed />}
-      <Title />
-      <Act />
-    </div>
+      <div>
+        {all 
+        ?  <div>
+            <HeaderBenner />
+            {navbar ? <Header /> : <HeaderFixed />}
+            <Title />
+            <Act />
+          </div>
+        : <div></div>}
+      </div>
   );
 }
 
-export default App;
+export default App;all;
