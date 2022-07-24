@@ -16,6 +16,7 @@ function App() {
       setNavbar(true);
     }
   }
+  
   window.addEventListener('scroll', changeheight)
   return (
     <div className="transition-all duration-300">

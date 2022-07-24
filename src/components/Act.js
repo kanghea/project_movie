@@ -4,6 +4,12 @@ function Act() {
     const [act1,setAct1] = useState(false);
     const [act2, setAct2] = useState(false);
     const [act3, setAct3] = useState(false);
+    const [act11,setAct11] = useState(true);
+    const [act21, setAct21] = useState(false);
+    const [act31, setAct31] = useState(false);
+    const [act12,setAct12] = useState(false);
+    const [act22, setAct22] = useState(false);
+    const [act32, setAct32] = useState(false);
     return <>
       <div className="w-full h-auto flex flex-wrap mb-36 gap-10 mt-5 xl:px-26 justify-center transition-all">
         <a className='w-[525px] box-border '>
@@ -51,9 +57,9 @@ function Act() {
             <div className='flex w-[720px] h-[600px] p-8 bg-white rounded-[40px]'>
               <div className='absolute w-[640px] border-b-gray-400'>
                 <div className='text-2xl mb-6 font-semibold'>매물등록</div>
-                <ul className='flex gap-12 text-xl text-gray-400 border-b-[1px] border-gray-400 font-[550] pb-2'>
-                  <li className= 'hover:text-black focus:text-black cursor-pointer'>간편한 매물 등록</li>
-                  <li className='hover:text-black cursor-pointer'>철저한 매물 관리</li >
+                <ul className='flex gap-12 text-xl text-gray-400 border-b-[1px] border-gray-400 font-[550] pb-5'>
+                  <li className= 'hover:text-black focus:text-black cursor-pointer' onClick={()=>{setAct11(true);}}>간편한 매물 등록</li>
+                  <li className='hover:text-black cursor-pointer' onClick={()=>{setAct11(false);}}>철저한 매물 관리</li >
                   <button type="button" className="flex-none col-span-1 text-gray-400 hover:text-gray-800 ml-auto" onClick={() => {
                     setAct1(false);
                   }}>
@@ -62,6 +68,16 @@ function Act() {
                     </svg>
                   </button>
                 </ul>
+                {act11
+                    ?<div> 
+                      <div className='w-auto h-auto mt-5 block overflow-y-scroll overflow-x-hidden'>
+                        <div>Content</div>
+                        <div>Content</div>
+                      </div>
+                    </div>
+                    :<div className='w-auto h-auto mt-5 block overflow-y-scroll overflow-x-hidden'>
+                      <div>content?</div>
+                    </div>} 
               </div>
             </div>
           </div>
