@@ -34,7 +34,7 @@ function Act() {
         </a>
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 bg-gray-100 hover:bg-yellow-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
-            <div className="text-[40px] leading-[60px] font-semibold">매물광고</div>
+            <div className="text-[40px] leading-[60px] font-semibold">발빠른 부동산 이슈</div>
             <div className="text-lg font-normal">소장이 하나하나 검토해서 신뢰성있는 매물 多<br></br> 인공지능 가격분석으로 합리적인 가격까지</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
@@ -43,7 +43,7 @@ function Act() {
         </a>
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-red-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
-            <div className="text-[40px] leading-[60px] font-semibold">매물광고</div>
+            <div className="text-[40px] leading-[60px] font-semibold">AI빅데이터</div>
             <div className="text-lg font-normal">소장이 하나하나 검토해서 신뢰성있는 매물 多<br></br> 인공지능 가격분석으로 합리적인 가격까지</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
