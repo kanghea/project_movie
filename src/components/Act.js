@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import all from '../App';
 
 function Act() {
     const [act1,setAct1] = useState(false);
@@ -12,7 +11,7 @@ function Act() {
     const [act22, setAct22] = useState(false);
     const [act32, setAct32] = useState(false);
     return <>
-      <div className="w-full h-full flex flex-wrap mb-36 gap-10 mt-5 xl:px-26 justify-center transition-all">
+      <div className="w-full h-full flex mb-36 gap-10 mt-5 xl:px-26 justify-center transition-all flex-wrap">
         <a className='w-[525px] box-border h-full '>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-blue-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
             <div className="text-[40px] leading-[60px] font-semibold">매물등록</div>

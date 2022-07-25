@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState,Component } from "react";
 import HeaderBenner from './components/HeaderBenner';
 import Title from './components/Title';
@@ -7,7 +8,6 @@ import HeaderFixed from './components/HeaderFixed';
 
 function App() {
   const [navbar, setNavbar] = useState(true);
-  const [all, setAll] = useState(true);
   const changeheight = () => {
     if(window.scrollY > 0){
       setNavbar(false);
@@ -17,17 +17,13 @@ function App() {
   }
   window.addEventListener('scroll', changeheight)
   return (
-      <div>
-        {all 
-        ?  <div>
-            <HeaderBenner />
-            {navbar ? <Header /> : <HeaderFixed />}
-            <Title />
-            <Act />
-          </div>
-        : <div></div>}
-      </div>
+    <div>
+      <HeaderBenner />
+      {navbar ? <Header /> : <HeaderFixed />}
+      <Title />
+      <Act />
+    </div>
   );
 }
 
-export default App;all;
+export default App;
