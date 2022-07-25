@@ -5,7 +5,10 @@ import Title from './components/Title';
 import Act from './components/Act';
 import Header from './components/Header';
 import HeaderFixed from './components/HeaderFixed';
-import Route from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 function App() {
   const [navbar, setNavbar] = useState(true);
   const changeheight = () => {
@@ -18,15 +21,17 @@ function App() {
   window.addEventListener('scroll', changeheight)
   return (
     <div>
-      <Route path="/">
+      <Route exact path="/">
         <HeaderBenner />
         {navbar ? <Route><Header /></Route> : <HeaderFixed />}
         <Title />
         <Act />
       </Route>
-      <Route exact path="lol"></Route>
-      <Route exact path="app"></Route>
-      <Route exact path="website"></Route>
+      <Route exact path="/lol">
+        <div>hi</div>
+      </Route>
+      <Route exact path="/app"></Route>
+      <Route exact path="/website"></Route>
     </div>
   );
 }
