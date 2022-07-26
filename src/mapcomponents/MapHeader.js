@@ -1,4 +1,4 @@
-function Mapmain(){
+function MapHeader(){
     return(
         <div className="p-0 m-0">
             <div className="w-full h-15 bg-black/30 float-left">
@@ -12,4 +12,4 @@ function Mapmain(){
         </div>
     )
 }
-export default Mapmain;
+export default MapHeader;
