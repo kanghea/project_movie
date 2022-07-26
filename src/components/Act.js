@@ -35,7 +35,7 @@ function Act() {
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 bg-gray-100 hover:bg-yellow-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
             <div className="text-[40px] leading-[60px] font-semibold">발빠른 부동산 이슈</div>
-            <div className="text-lg font-normal">소장이 하나하나 검토해서 신뢰성있는 매물 多<br></br> 인공지능 가격분석으로 합리적인 가격까지</div>
+            <div className="text-lg font-normal">핵심적인 부동산 뉴스들만 콕콕!<br></br>알림신청으로 남들보다 앞서가세요!</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
             </div>
@@ -44,7 +44,7 @@ function Act() {
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-red-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
             <div className="text-[40px] leading-[60px] font-semibold">AI빅데이터</div>
-            <div className="text-lg font-normal">소장이 하나하나 검토해서 신뢰성있는 매물 多<br></br> 인공지능 가격분석으로 합리적인 가격까지</div>
+            <div className="text-lg font-normal">똑똑한 건물주가 되려면 이정도는 필수!<br></br>실거래가 정보(빅데이터)와 예상가격(AI)을 지원합니다!</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
             </div>
@@ -52,6 +52,7 @@ function Act() {
         </a>
       </div>
       {act1&&
+
         <div>
           <div className='z-10 w-full h-full bg-black/70 fixed top-0 left-0 flex justify-center items-center'>
             <div className='flex w-[720px] h-[600px] p-8 bg-white rounded-[40px]'>

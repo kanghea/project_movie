@@ -22,7 +22,6 @@ function Main() {
             <Title />
             <Act />
         </div>
-
     );
   }
   
