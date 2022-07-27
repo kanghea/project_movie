@@ -43,7 +43,7 @@ function Act() {
         </a>
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-red-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
-            <div className="text-[40px] leading-[60px] font-semibold">건물주모드 신설!</div>
+            <div className="text-[40px] leading-[60px] font-semibold">건물주모드</div>
             <div className="text-lg font-normal pt-3">건물주님들을 위한 핵심 기능!<br></br>대.부.연이 건물주 임차관리를 돕습니다</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
@@ -52,7 +52,6 @@ function Act() {
         </a>
       </div>
       {act1&&
-
         <div>
           <div className='z-10 w-full h-full bg-black/70 fixed top-0 left-0 flex justify-center items-center'>
             <div className='flex w-[720px] h-[600px] p-8 bg-white rounded-[40px]'>
